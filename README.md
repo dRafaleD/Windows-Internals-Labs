@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **12-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **13-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -20,6 +20,7 @@ A **12-day bilingual, beginner-friendly practical series** covering Windows proc
 | 10 | Services, Scheduled Tasks and Startup Context | [English](labs/10-windows-services-and-scheduled-tasks/notes.md) · [Türkçe](labs/10-windows-services-and-scheduled-tasks/notes.tr.md) | [lab.py](labs/10-windows-services-and-scheduled-tasks/lab.py) |
 | 11 | ETW, Sysmon and Process Event Correlation | [English](labs/11-etw-sysmon-and-process-event-correlation/notes.md) · [Türkçe](labs/11-etw-sysmon-and-process-event-correlation/notes.tr.md) | [lab.py](labs/11-etw-sysmon-and-process-event-correlation/lab.py) |
 | 12 | Windows Internals Evidence Reconstruction Capstone | [English](labs/12-windows-internals-evidence-capstone/notes.md) · [Türkçe](labs/12-windows-internals-evidence-capstone/notes.tr.md) | [lab.py](labs/12-windows-internals-evidence-capstone/lab.py) |
+| 13 | Windows Handle Access Rights and Evidence | [English](labs/13-windows-handle-access-rights-and-evidence/notes.md) · [Türkçe](labs/13-windows-handle-access-rights-and-evidence/notes.tr.md) | [lab.py](labs/13-windows-handle-access-rights-and-evidence/lab.py) |
 
 ## How to study
 
@@ -47,7 +48,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (12 days with the same structure)
+    └── ... (13 days with the same structure)
 ```
 
 ## Limits and safety
@@ -56,5 +57,5 @@ Examples do not read live process memory, load DLLs, modify Registry values or c
 
 ## Next steps
 
-After the core 12 days, continue with WinDbg, deeper PE loader mechanics, memory forensics, Win32 API and controlled ETW exercises.
+After the core 13 days, continue with WinDbg, deeper PE loader mechanics, memory forensics, Win32 API and controlled ETW exercises.
 
