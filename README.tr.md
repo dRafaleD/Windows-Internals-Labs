@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **12 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **13 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -20,6 +20,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **12 günlük i
 | 10 | Windows Servisleri, Zamanlanmış Görevler ve Başlangıç | [Türkçe](labs/10-windows-services-and-scheduled-tasks/notes.tr.md) · [English](labs/10-windows-services-and-scheduled-tasks/notes.md) | [lab.py](labs/10-windows-services-and-scheduled-tasks/lab.py) |
 | 11 | ETW, Sysmon ve Süreç Olayı Korelasyonu | [Türkçe](labs/11-etw-sysmon-and-process-event-correlation/notes.tr.md) · [English](labs/11-etw-sysmon-and-process-event-correlation/notes.md) | [lab.py](labs/11-etw-sysmon-and-process-event-correlation/lab.py) |
 | 12 | Windows Internals Delil Yeniden Yapılandırma Bitirme Çalışması | [Türkçe](labs/12-windows-internals-evidence-capstone/notes.tr.md) · [English](labs/12-windows-internals-evidence-capstone/notes.md) | [lab.py](labs/12-windows-internals-evidence-capstone/lab.py) |
+| 13 | Windows Handle Erişim Hakları ve Delil Bağlamı | [Türkçe](labs/13-windows-handle-access-rights-and-evidence/notes.tr.md) · [English](labs/13-windows-handle-access-rights-and-evidence/notes.md) | [lab.py](labs/13-windows-handle-access-rights-and-evidence/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -47,7 +48,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 12 gün, aynı düzen)
+    └── ... (toplam 13 gün, aynı düzen)
 ```
 
 ## Sınırlar ve güvenlik
@@ -56,5 +57,5 @@ Windows-Internals-Labs/
 
 ## Devam yolu
 
-Temel 12 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişimi, Win32 API ve kontrollü ETW deneylerine geçilebilir.
+Temel 13 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişimi, Win32 API ve kontrollü ETW deneylerine geçilebilir.
 
