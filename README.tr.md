@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **13 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **14 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -21,6 +21,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **13 günlük i
 | 11 | ETW, Sysmon ve Süreç Olayı Korelasyonu | [Türkçe](labs/11-etw-sysmon-and-process-event-correlation/notes.tr.md) · [English](labs/11-etw-sysmon-and-process-event-correlation/notes.md) | [lab.py](labs/11-etw-sysmon-and-process-event-correlation/lab.py) |
 | 12 | Windows Internals Delil Yeniden Yapılandırma Bitirme Çalışması | [Türkçe](labs/12-windows-internals-evidence-capstone/notes.tr.md) · [English](labs/12-windows-internals-evidence-capstone/notes.md) | [lab.py](labs/12-windows-internals-evidence-capstone/lab.py) |
 | 13 | Windows Handle Erişim Hakları ve Delil Bağlamı | [Türkçe](labs/13-windows-handle-access-rights-and-evidence/notes.tr.md) · [English](labs/13-windows-handle-access-rights-and-evidence/notes.md) | [lab.py](labs/13-windows-handle-access-rights-and-evidence/lab.py) |
+| 14 | Windows Dosya Paylaşım Modları ve Handle Uyumluluğu | [Türkçe](labs/14-file-sharing-modes-and-handle-compatibility/notes.tr.md) · [English](labs/14-file-sharing-modes-and-handle-compatibility/notes.md) | [lab.py](labs/14-file-sharing-modes-and-handle-compatibility/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -57,5 +58,5 @@ Windows-Internals-Labs/
 
 ## Devam yolu
 
-Temel 13 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişimi, Win32 API ve kontrollü ETW deneylerine geçilebilir.
+Temel 14 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişimi, Win32 API ve kontrollü ETW deneylerine geçilebilir.
 
