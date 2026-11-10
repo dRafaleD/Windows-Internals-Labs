@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **14-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **15-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -22,12 +22,13 @@ A **14-day bilingual, beginner-friendly practical series** covering Windows proc
 | 12 | Windows Internals Evidence Reconstruction Capstone | [English](labs/12-windows-internals-evidence-capstone/notes.md) · [Türkçe](labs/12-windows-internals-evidence-capstone/notes.tr.md) | [lab.py](labs/12-windows-internals-evidence-capstone/lab.py) |
 | 13 | Windows Handle Access Rights and Evidence | [English](labs/13-windows-handle-access-rights-and-evidence/notes.md) · [Türkçe](labs/13-windows-handle-access-rights-and-evidence/notes.tr.md) | [lab.py](labs/13-windows-handle-access-rights-and-evidence/lab.py) |
 | 14 | Windows File Sharing Modes and Handle Compatibility | [English](labs/14-file-sharing-modes-and-handle-compatibility/notes.md) · [Türkçe](labs/14-file-sharing-modes-and-handle-compatibility/notes.tr.md) | [lab.py](labs/14-file-sharing-modes-and-handle-compatibility/lab.py) |
+| 15 | Delete-Pending, FILE_SHARE_DELETE and Handle Lifetime | [English](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.md) · [Türkçe](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.tr.md) | [lab.py](labs/15-delete-pending-share-delete-and-handle-lifetime/lab.py) |
 
 ## How to study
 
 1. Read the notes in either language and compare the terminology.
 2. Inspect the Python script and predict its output.
-3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 12 labs.
+3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 15 labs.
 4. Optionally run the read-only PowerShell command on your own Windows machine.
 5. Document a false positive and a missing-evidence scenario.
 
@@ -49,7 +50,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (14 days with the same structure)
+    └── ... (15 days with the same structure)
 ```
 
 ## Limits and safety
@@ -58,5 +59,10 @@ Examples do not read live process memory, load DLLs, modify Registry values or c
 
 ## Next steps
 
-After the core 14 days, continue with WinDbg, deeper PE loader mechanics, memory forensics, Win32 API and controlled ETW exercises.
+After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory forensics, Win32 API and controlled ETW exercises.
 
+
+## Latest lab
+
+- **Day 15 — Delete-Pending, FILE_SHARE_DELETE and Handle Lifetime**
+- [English notes](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.md) · [Türkçe notlar](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.tr.md) · [Offline Python practice](labs/15-delete-pending-share-delete-and-handle-lifetime/lab.py)
