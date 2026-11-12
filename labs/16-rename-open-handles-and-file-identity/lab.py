@@ -85,7 +85,7 @@ def main() -> None:
     assert m.open("C:/Lab/old.txt", READ, READ | DELETE) is None
     m.close(new_handle)
     m.close(shared)
-    print("10/10 synthetic rename and handle assertions passed.")
+    print("11/11 synthetic rename and handle assertions passed.")
     print("No Win32 APIs, disk files or Registry keys were changed.")
 
 if __name__ == "__main__":
