@@ -69,7 +69,7 @@ def main():
     assert not m.exists(100)
     m.create(101, "C:/Lab/first.txt")  # Old path points at a new object.
     assert m.paths["C:/Lab/first.txt"] == 101
-    print("10/10 synthetic identity and link checks passed")
+    print("11/11 synthetic identity and link checks passed")
     print("No files or Windows APIs were accessed")
 
 if __name__ == "__main__":
