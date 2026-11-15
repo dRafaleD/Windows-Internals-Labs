@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **17-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **18-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -25,12 +25,13 @@ A **17-day bilingual, beginner-friendly practical series** covering Windows proc
 | 15 | Delete-Pending, FILE_SHARE_DELETE and Handle Lifetime | [English](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.md) · [Türkçe](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.tr.md) | [lab.py](labs/15-delete-pending-share-delete-and-handle-lifetime/lab.py) |
 | 16 | Rename Operations, Open Handles and File Identity | [English](labs/16-rename-open-handles-and-file-identity/notes.md) · [Türkçe](labs/16-rename-open-handles-and-file-identity/notes.tr.md) | [lab.py](labs/16-rename-open-handles-and-file-identity/lab.py) |
 | 17 | Hard Links, File IDs and Path Ambiguity | [English](labs/17-hard-links-file-ids-and-path-ambiguity/notes.md) · [Türkçe](labs/17-hard-links-file-ids-and-path-ambiguity/notes.tr.md) | [lab.py](labs/17-hard-links-file-ids-and-path-ambiguity/lab.py) |
+| 18 | File-ID Reuse, Generations and Handle Evidence | [English](labs/18-file-id-reuse-generations-and-handle-evidence/notes.md) · [Türkçe](labs/18-file-id-reuse-generations-and-handle-evidence/notes.tr.md) | [lab.py](labs/18-file-id-reuse-generations-and-handle-evidence/lab.py) |
 
 ## How to study
 
 1. Read the notes in either language and compare the terminology.
 2. Inspect the Python script and predict its output.
-3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 17 labs.
+3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 18 labs.
 4. Optionally run the read-only PowerShell command on your own Windows machine.
 5. Document a false positive and a missing-evidence scenario.
 
@@ -52,7 +53,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (17 days with the same structure)
+    └── ... (18 days with the same structure)
 ```
 
 ## Limits and safety
@@ -66,5 +67,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 17 — Hard Links, File IDs and Path Ambiguity**
-- [English notes](labs/17-hard-links-file-ids-and-path-ambiguity/notes.md) · [Türkçe notlar](labs/17-hard-links-file-ids-and-path-ambiguity/notes.tr.md) · [Practice](labs/17-hard-links-file-ids-and-path-ambiguity/lab.py)
+- **Day 18 — File-ID Reuse, Generations and Handle Evidence**
+- [English notes](labs/18-file-id-reuse-generations-and-handle-evidence/notes.md) · [Türkçe notlar](labs/18-file-id-reuse-generations-and-handle-evidence/notes.tr.md) · [Offline Python practice](labs/18-file-id-reuse-generations-and-handle-evidence/lab.py)

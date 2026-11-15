@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **17 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **18 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -25,6 +25,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **17 günlük i
 | 15 | Delete-Pending, FILE_SHARE_DELETE ve Handle Yaşam Süresi | [Türkçe](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.tr.md) · [English](labs/15-delete-pending-share-delete-and-handle-lifetime/notes.md) | [lab.py](labs/15-delete-pending-share-delete-and-handle-lifetime/lab.py) |
 | 16 | Yeniden Adlandırma, Handle ve Dosya Kimliği | [Türkçe](labs/16-rename-open-handles-and-file-identity/notes.tr.md) · [English](labs/16-rename-open-handles-and-file-identity/notes.md) | [lab.py](labs/16-rename-open-handles-and-file-identity/lab.py) |
 | 17 | Hard Link, File ID ve Dosya Yolu Belirsizliği | [Türkçe](labs/17-hard-links-file-ids-and-path-ambiguity/notes.tr.md) · [English](labs/17-hard-links-file-ids-and-path-ambiguity/notes.md) | [lab.py](labs/17-hard-links-file-ids-and-path-ambiguity/lab.py) |
+| 18 | File ID Yeniden Kullanımı ve Handle Kanıtları | [Türkçe](labs/18-file-id-reuse-generations-and-handle-evidence/notes.tr.md) · [English](labs/18-file-id-reuse-generations-and-handle-evidence/notes.md) | [lab.py](labs/18-file-id-reuse-generations-and-handle-evidence/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -52,7 +53,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 17 gün, aynı düzen)
+    └── ... (toplam 18 gün, aynı düzen)
 ```
 
 ## Sınırlar ve güvenlik
@@ -66,5 +67,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 17 — Hard Link, File ID ve Dosya Yolu Belirsizliği**
-- [Türkçe notlar](labs/17-hard-links-file-ids-and-path-ambiguity/notes.tr.md) · [English notes](labs/17-hard-links-file-ids-and-path-ambiguity/notes.md) · [Python uygulaması](labs/17-hard-links-file-ids-and-path-ambiguity/lab.py)
+- **Gün 18 — File ID Yeniden Kullanımı ve Handle Kanıtları**
+- [Türkçe notlar](labs/18-file-id-reuse-generations-and-handle-evidence/notes.tr.md) · [English notes](labs/18-file-id-reuse-generations-and-handle-evidence/notes.md) · [Python uygulaması](labs/18-file-id-reuse-generations-and-handle-evidence/lab.py)
