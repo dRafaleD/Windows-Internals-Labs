@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **19 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **20 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -27,6 +27,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **19 günlük i
 | 17 | Hard Link, File ID ve Dosya Yolu Belirsizliği | [Türkçe](labs/17-hard-links-file-ids-and-path-ambiguity/notes.tr.md) · [English](labs/17-hard-links-file-ids-and-path-ambiguity/notes.md) | [lab.py](labs/17-hard-links-file-ids-and-path-ambiguity/lab.py) |
 | 18 | File ID Yeniden Kullanımı ve Handle Kanıtları | [Türkçe](labs/18-file-id-reuse-generations-and-handle-evidence/notes.tr.md) · [English](labs/18-file-id-reuse-generations-and-handle-evidence/notes.md) | [lab.py](labs/18-file-id-reuse-generations-and-handle-evidence/lab.py) |
 | 19 | File ID Yeniden Kullanımı ve Olay Korelasyonu | [Türkçe](labs/19-file-identity-reuse-and-event-correlation/notes.tr.md) · [English](labs/19-file-identity-reuse-and-event-correlation/notes.md) | [lab.py](labs/19-file-identity-reuse-and-event-correlation/lab.py) |
+| 20 | USN Yeniden Adlandırma ve Dosya Referansı | [Türkçe](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.tr.md) · [English](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.md) | [lab.py](labs/20-usn-rename-pairs-and-file-reference-ambiguity/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -54,7 +55,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 19 gün, aynı düzen)
+    └── ... (toplam 20 gün, aynı düzen)
 ```
 
 ## Sınırlar ve güvenlik
@@ -68,5 +69,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 19 — File ID Yeniden Kullanımı ve Olay Korelasyonu**
-- [Türkçe notlar](labs/19-file-identity-reuse-and-event-correlation/notes.tr.md) · [English notes](labs/19-file-identity-reuse-and-event-correlation/notes.md) · [Python uygulaması](labs/19-file-identity-reuse-and-event-correlation/lab.py)
+- **Gün 20 — USN Rename Kayıtları ve Dosya Referansı**
+- [Türkçe notlar](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.tr.md) · [English notes](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.md) · [Python uygulaması](labs/20-usn-rename-pairs-and-file-reference-ambiguity/lab.py)

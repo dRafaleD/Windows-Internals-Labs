@@ -5,8 +5,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parent
 paths = sorted((ROOT / "labs").glob("*/lab.py"))
-if len(paths) != 19:
-    raise SystemExit(f"Expected 19 lab.py scripts, found {len(paths)}")
+if len(paths) != 20:
+    raise SystemExit(f"Expected 20 lab.py scripts, found {len(paths)}")
 errors = []
 for path in paths:
     try:
@@ -21,4 +21,4 @@ for path, error in errors:
     print(path + ": " + error, file=sys.stderr)
 if errors:
     raise SystemExit(1)
-print("19/19 Windows Internals offline checks passed.")
+print("20/20 Windows Internals offline checks passed.")
