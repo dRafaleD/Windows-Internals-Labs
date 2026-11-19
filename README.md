@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **21-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **22-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -29,12 +29,13 @@ A **21-day bilingual, beginner-friendly practical series** covering Windows proc
 | 19 | File Identity Reuse and Event Correlation | [English](labs/19-file-identity-reuse-and-event-correlation/notes.md) · [Türkçe](labs/19-file-identity-reuse-and-event-correlation/notes.tr.md) | [lab.py](labs/19-file-identity-reuse-and-event-correlation/lab.py) |
 | 20 | USN Rename Pairs and File Reference Ambiguity | [English](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.md) · [Türkçe](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.tr.md) | [lab.py](labs/20-usn-rename-pairs-and-file-reference-ambiguity/lab.py) |
 | 21 | USN Bit Flags and Ambiguous Rename Pairs | [English](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.md) · [Türkçe](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.tr.md) | [lab.py](labs/21-usn-bitflags-and-ambiguous-rename-pairs/lab.py) |
+| 22 | USN Collection Gaps and Rename-Evidence Abstention | [English](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) · [Türkçe](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) | [lab.py](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py) |
 
 ## How to study
 
 1. Read the notes in either language and compare the terminology.
 2. Inspect the Python script and predict its output.
-3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 21 labs.
+3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 22 labs.
 4. Optionally run the read-only PowerShell command on your own Windows machine.
 5. Document a false positive and a missing-evidence scenario.
 
@@ -56,7 +57,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (21 days with the same structure)
+    └── ... (22 days with the same structure)
 ```
 
 ## Limits and safety
@@ -70,5 +71,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 21 — USN Bit Flags and Ambiguous Rename Pairs**
-- [English notes](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.md) · [Türkçe notlar](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.tr.md) · [Offline Python practice](labs/21-usn-bitflags-and-ambiguous-rename-pairs/lab.py)
+- **Day 22 — USN Collection Gaps and Rename-Evidence Abstention**
+- [English notes](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) · [Türkçe notlar](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) · [Offline Python](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py)
