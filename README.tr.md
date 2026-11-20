@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **22 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **23 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -30,6 +30,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **22 günlük i
 | 20 | USN Yeniden Adlandırma ve Dosya Referansı | [Türkçe](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.tr.md) · [English](labs/20-usn-rename-pairs-and-file-reference-ambiguity/notes.md) | [lab.py](labs/20-usn-rename-pairs-and-file-reference-ambiguity/lab.py) |
 | 21 | USN Bit Flag ve Belirsiz Rename Eşleşmesi | [Türkçe](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.tr.md) · [English](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.md) | [lab.py](labs/21-usn-bitflags-and-ambiguous-rename-pairs/lab.py) |
 | 22 | USN Kayıt Toplama Eksiklikleri ve Rename Belirsizliği | [Türkçe](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) · [English](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) | [lab.py](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py) |
+| 23 | USN Rename ve Süreç Bağlamı | [Türkçe](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) · [English](labs/23-usn-process-context-and-evidence-corroboration/notes.md) | [lab.py](labs/23-usn-process-context-and-evidence-corroboration/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -57,7 +58,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 22 gün, aynı düzen)
+    └── ... (toplam 23 gün, aynı düzen)
 ```
 
 ## Sınırlar ve güvenlik
@@ -71,5 +72,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 22 — USN Kayıt Toplama Eksiklikleri ve Rename Belirsizliği**
-- [Türkçe notlar](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) · [English notes](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) · [Python uygulaması](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py)
+- **Gün 23 — USN Rename ve Süreç Bağlamını Karşılaştırma**
+- [Türkçe notlar](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) · [English notes](labs/23-usn-process-context-and-evidence-corroboration/notes.md) · [Python uygulaması](labs/23-usn-process-context-and-evidence-corroboration/lab.py)
