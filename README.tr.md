@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **23 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **24 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -31,6 +31,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **23 günlük i
 | 21 | USN Bit Flag ve Belirsiz Rename Eşleşmesi | [Türkçe](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.tr.md) · [English](labs/21-usn-bitflags-and-ambiguous-rename-pairs/notes.md) | [lab.py](labs/21-usn-bitflags-and-ambiguous-rename-pairs/lab.py) |
 | 22 | USN Kayıt Toplama Eksiklikleri ve Rename Belirsizliği | [Türkçe](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) · [English](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) | [lab.py](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py) |
 | 23 | USN Rename ve Süreç Bağlamı | [Türkçe](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) · [English](labs/23-usn-process-context-and-evidence-corroboration/notes.md) | [lab.py](labs/23-usn-process-context-and-evidence-corroboration/lab.py) |
+| 24 | USN Süreç Zaman Belirsizliği ve Kanıt Değerlendirme | [Türkçe](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) · [English](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) | [lab.py](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -58,7 +59,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (toplam 23 gün, aynı düzen)
+    └── ... (toplam 24 gün, aynı düzen)
 ```
 
 ## Sınırlar ve güvenlik
@@ -72,5 +73,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 23 — USN Rename ve Süreç Bağlamını Karşılaştırma**
-- [Türkçe notlar](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) · [English notes](labs/23-usn-process-context-and-evidence-corroboration/notes.md) · [Python uygulaması](labs/23-usn-process-context-and-evidence-corroboration/lab.py)
+- **Gün 24 — USN ve Süreç Zaman Belirsizliği**
+- [Türkçe notlar](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) · [English notes](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) · [Python uygulaması](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py)
