@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **24-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **25-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -32,12 +32,13 @@ A **24-day bilingual, beginner-friendly practical series** covering Windows proc
 | 22 | USN Collection Gaps and Rename-Evidence Abstention | [English](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.md) · [Türkçe](labs/22-usn-collection-gaps-and-rename-evidence-abstention/notes.tr.md) | [lab.py](labs/22-usn-collection-gaps-and-rename-evidence-abstention/lab.py) |
 | 23 | USN Process Context and Evidence Corroboration | [English](labs/23-usn-process-context-and-evidence-corroboration/notes.md) · [Türkçe](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) | [lab.py](labs/23-usn-process-context-and-evidence-corroboration/lab.py) |
 | 24 | USN/Process Timestamp Uncertainty and Abstention | [English](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) · [Türkçe](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) | [lab.py](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py) |
+| 25 | USN Rename and MFT Snapshot Identity Checks | [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
 
 ## How to study
 
 1. Read the notes in either language and compare the terminology.
 2. Inspect the Python script and predict its output.
-3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 24 labs.
+3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 25 labs.
 4. Optionally run the read-only PowerShell command on your own Windows machine.
 5. Document a false positive and a missing-evidence scenario.
 
@@ -59,7 +60,7 @@ Windows-Internals-Labs/
     │   ├── notes.md
     │   ├── notes.tr.md
     │   └── lab.py
-    └── ... (24 days with the same structure)
+    └── ... (25 days with the same structure)
 ```
 
 ## Limits and safety
@@ -73,5 +74,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 24 — USN/Process Timestamp Uncertainty and Abstention**
-- [English notes](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) · [Türkçe notlar](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) · [Offline Python](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py)
+- **Day 25 — USN Rename and MFT Snapshot Identity Checks**
+- [English notes](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe notlar](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) · [Python exercise](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py)
