@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-A **25-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
+A **26-day bilingual, beginner-friendly practical series** covering Windows processes, threads, PE files, memory, Registry, access controls, Event Logs and ETW/Sysmon.
 
 ## Labs
 
@@ -33,12 +33,13 @@ A **25-day bilingual, beginner-friendly practical series** covering Windows proc
 | 23 | USN Process Context and Evidence Corroboration | [English](labs/23-usn-process-context-and-evidence-corroboration/notes.md) · [Türkçe](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) | [lab.py](labs/23-usn-process-context-and-evidence-corroboration/lab.py) |
 | 24 | USN/Process Timestamp Uncertainty and Abstention | [English](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) · [Türkçe](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) | [lab.py](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py) |
 | 25 | USN Rename and MFT Snapshot Identity Checks | [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
+| 26 | MFT Multiple Names and Rename Ambiguity | [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 
 ## How to study
 
 1. Read the notes in either language and compare the terminology.
 2. Inspect the Python script and predict its output.
-3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 25 labs.
+3. Run `python lab.py` and observe the assertions. Run `python test_all.py` at the repo root to smoke-check all 26 labs.
 4. Optionally run the read-only PowerShell command on your own Windows machine.
 5. Document a false positive and a missing-evidence scenario.
 
@@ -74,5 +75,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 25 — USN Rename and MFT Snapshot Identity Checks**
-- [English notes](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe notlar](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) · [Python exercise](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py)
+- **Day 26 — MFT Multiple Names and Rename Ambiguity**
+- [English notes](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe notlar](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [Python exercise](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py)

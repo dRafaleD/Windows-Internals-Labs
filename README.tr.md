@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
 
-Windows'un iç yapısını sıfırdan tanımak için hazırlanan **25 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
+Windows'un iç yapısını sıfırdan tanımak için hazırlanan **26 günlük iki dilli uygulamalı eğitim serisi**. Süreç, thread, PE, sanal bellek, Registry, erişim kontrolü, Event Log ve ETW/Sysmon kavramlarıyla ilerler.
 
 ## Dersler
 
@@ -33,6 +33,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **25 günlük i
 | 23 | USN Rename ve Süreç Bağlamı | [Türkçe](labs/23-usn-process-context-and-evidence-corroboration/notes.tr.md) · [English](labs/23-usn-process-context-and-evidence-corroboration/notes.md) | [lab.py](labs/23-usn-process-context-and-evidence-corroboration/lab.py) |
 | 24 | USN Süreç Zaman Belirsizliği ve Kanıt Değerlendirme | [Türkçe](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) · [English](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) | [lab.py](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py) |
 | 25 | USN Rename ve MFT Snapshot Kimliği | [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) · [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
+| 26 | MFT Çoklu Adları ve Rename Belirsizliği | [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -74,5 +75,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 25 — USN Rename ve MFT Snapshot Kimlik Kontrolü**
-- [Türkçe notlar](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) · [English notes](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Python uygulaması](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py)
+- **Gün 26 — MFT Çoklu Adları ve Rename Belirsizliği**
+- [Türkçe notlar](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [English notes](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Python uygulaması](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py)
