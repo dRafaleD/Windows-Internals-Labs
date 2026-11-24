@@ -34,6 +34,7 @@ A **26-day bilingual, beginner-friendly practical series** covering Windows proc
 | 24 | USN/Process Timestamp Uncertainty and Abstention | [English](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.md) · [Türkçe](labs/24-usn-process-timestamp-uncertainty-and-abstention/notes.tr.md) | [lab.py](labs/24-usn-process-timestamp-uncertainty-and-abstention/lab.py) |
 | 25 | USN Rename and MFT Snapshot Identity Checks | [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
 | 26 | MFT Multiple Names and Rename Ambiguity | [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
+| 27 | MFT Parent References and Path Ambiguity | [English](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Türkçe](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) | [lab.py](labs/27-mft-parent-references-and-path-ambiguity/lab.py) |
 
 ## How to study
 
@@ -75,5 +76,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 26 — MFT Multiple Names and Rename Ambiguity**
-- [English notes](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe notlar](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [Python exercise](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py)
+- **Day 27 — MFT Parent References and Path Ambiguity**
+- [English notes](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Türkçe notlar](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) · [Python exercise](labs/27-mft-parent-references-and-path-ambiguity/lab.py)
