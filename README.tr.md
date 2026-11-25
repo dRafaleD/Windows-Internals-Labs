@@ -35,6 +35,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **26 günlük i
 | 25 | USN Rename ve MFT Snapshot Kimliği | [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) · [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
 | 26 | MFT Çoklu Adları ve Rename Belirsizliği | [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 | 27 | MFT Parent Referansları ve Yol Belirsizliği | [Türkçe](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) · [English](labs/27-mft-parent-references-and-path-ambiguity/notes.md) | [lab.py](labs/27-mft-parent-references-and-path-ambiguity/lab.py) |
+| 28 | Uygulama Günü: FILETIME Dönüşümü ve Zaman Damgası | [Türkçe](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [English](labs/28-filetime-conversion-and-timestamp-practice/notes.md) | [lab.py](labs/28-filetime-conversion-and-timestamp-practice/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -76,5 +77,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 27 — MFT Parent Referansları ve Yol Belirsizliği**
-- [Türkçe notlar](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) · [English notes](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Python uygulaması](labs/27-mft-parent-references-and-path-ambiguity/lab.py)
+- **Gün 28 — Uygulama Günü: FILETIME Dönüşümü ve Zaman Damgası**
+- [Türkçe notlar](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [English notes](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Python uygulaması](labs/28-filetime-conversion-and-timestamp-practice/lab.py)

@@ -35,6 +35,7 @@ A **26-day bilingual, beginner-friendly practical series** covering Windows proc
 | 25 | USN Rename and MFT Snapshot Identity Checks | [English](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.md) · [Türkçe](labs/25-usn-rename-and-mft-snapshot-identity-checks/notes.tr.md) | [lab.py](labs/25-usn-rename-and-mft-snapshot-identity-checks/lab.py) |
 | 26 | MFT Multiple Names and Rename Ambiguity | [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 | 27 | MFT Parent References and Path Ambiguity | [English](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Türkçe](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) | [lab.py](labs/27-mft-parent-references-and-path-ambiguity/lab.py) |
+| 28 | Practice Day: FILETIME Conversion and Timestamp Interpretation | [English](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Türkçe](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) | [lab.py](labs/28-filetime-conversion-and-timestamp-practice/lab.py) |
 
 ## How to study
 
@@ -76,5 +77,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 27 — MFT Parent References and Path Ambiguity**
-- [English notes](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Türkçe notlar](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) · [Python exercise](labs/27-mft-parent-references-and-path-ambiguity/lab.py)
+- **Day 28 — Practice Day: FILETIME Conversion and Timestamp Interpretation**
+- [English notes](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Türkçe notlar](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [Python exercise](labs/28-filetime-conversion-and-timestamp-practice/lab.py)
