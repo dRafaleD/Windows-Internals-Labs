@@ -36,6 +36,7 @@ A **26-day bilingual, beginner-friendly practical series** covering Windows proc
 | 26 | MFT Multiple Names and Rename Ambiguity | [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) · [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 | 27 | MFT Parent References and Path Ambiguity | [English](labs/27-mft-parent-references-and-path-ambiguity/notes.md) · [Türkçe](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) | [lab.py](labs/27-mft-parent-references-and-path-ambiguity/lab.py) |
 | 28 | Practice Day: FILETIME Conversion and Timestamp Interpretation | [English](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Türkçe](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) | [lab.py](labs/28-filetime-conversion-and-timestamp-practice/lab.py) |
+| 29 | FILETIME Exact Round Trips and Sentinel Values | [English](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) · [Türkçe](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) | [lab.py](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py) |
 
 ## How to study
 
@@ -77,5 +78,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 28 — Practice Day: FILETIME Conversion and Timestamp Interpretation**
-- [English notes](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Türkçe notlar](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [Python exercise](labs/28-filetime-conversion-and-timestamp-practice/lab.py)
+- **Day 29 — FILETIME Exact Round Trips and Sentinel Values**
+- [English notes](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) · [Türkçe notlar](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) · [Python exercise](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py)

@@ -36,6 +36,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **26 günlük i
 | 26 | MFT Çoklu Adları ve Rename Belirsizliği | [Türkçe](labs/26-mft-multiple-names-and-rename-ambiguity/notes.tr.md) · [English](labs/26-mft-multiple-names-and-rename-ambiguity/notes.md) | [lab.py](labs/26-mft-multiple-names-and-rename-ambiguity/lab.py) |
 | 27 | MFT Parent Referansları ve Yol Belirsizliği | [Türkçe](labs/27-mft-parent-references-and-path-ambiguity/notes.tr.md) · [English](labs/27-mft-parent-references-and-path-ambiguity/notes.md) | [lab.py](labs/27-mft-parent-references-and-path-ambiguity/lab.py) |
 | 28 | Uygulama Günü: FILETIME Dönüşümü ve Zaman Damgası | [Türkçe](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [English](labs/28-filetime-conversion-and-timestamp-practice/notes.md) | [lab.py](labs/28-filetime-conversion-and-timestamp-practice/lab.py) |
+| 29 | FILETIME Tam Dönüşüm ve Özel Değerler | [Türkçe](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) · [English](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) | [lab.py](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -77,5 +78,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 28 — Uygulama Günü: FILETIME Dönüşümü ve Zaman Damgası**
-- [Türkçe notlar](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) · [English notes](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Python uygulaması](labs/28-filetime-conversion-and-timestamp-practice/lab.py)
+- **Gün 29 — FILETIME Tam Dönüşüm ve Özel Değerler**
+- [Türkçe notlar](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) · [English notes](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) · [Python uygulaması](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py)
