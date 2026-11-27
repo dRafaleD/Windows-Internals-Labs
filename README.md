@@ -38,6 +38,7 @@ A **26-day bilingual, beginner-friendly practical series** covering Windows proc
 | 28 | Practice Day: FILETIME Conversion and Timestamp Interpretation | [English](labs/28-filetime-conversion-and-timestamp-practice/notes.md) · [Türkçe](labs/28-filetime-conversion-and-timestamp-practice/notes.tr.md) | [lab.py](labs/28-filetime-conversion-and-timestamp-practice/lab.py) |
 | 29 | FILETIME Exact Round Trips and Sentinel Values | [English](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) · [Türkçe](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) | [lab.py](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py) |
 | 30 | FILETIME Little-Endian Record Decoding | [English](labs/30-filetime-little-endian-record-decoding/notes.md) · [Türkçe](labs/30-filetime-little-endian-record-decoding/notes.tr.md) | [lab.py](labs/30-filetime-little-endian-record-decoding/lab.py) |
+| 31 | FILETIME High/Low Word Reconstruction | [English](labs/31-filetime-high-low-word-reconstruction/notes.md) · [Türkçe](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) | [lab.py](labs/31-filetime-high-low-word-reconstruction/lab.py) |
 
 ## How to study
 
@@ -79,5 +80,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 30 — FILETIME Little-Endian Record Decoding**
-- [English notes](labs/30-filetime-little-endian-record-decoding/notes.md) · [Türkçe notlar](labs/30-filetime-little-endian-record-decoding/notes.tr.md) · [Python exercise](labs/30-filetime-little-endian-record-decoding/lab.py)
+- **Day 31 — FILETIME High/Low Word Reconstruction**
+- [English notes](labs/31-filetime-high-low-word-reconstruction/notes.md) · [Türkçe notlar](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) · [Python exercise](labs/31-filetime-high-low-word-reconstruction/lab.py)
