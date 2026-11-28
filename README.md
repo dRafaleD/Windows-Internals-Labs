@@ -39,6 +39,7 @@ A **26-day bilingual, beginner-friendly practical series** covering Windows proc
 | 29 | FILETIME Exact Round Trips and Sentinel Values | [English](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) · [Türkçe](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) | [lab.py](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py) |
 | 30 | FILETIME Little-Endian Record Decoding | [English](labs/30-filetime-little-endian-record-decoding/notes.md) · [Türkçe](labs/30-filetime-little-endian-record-decoding/notes.tr.md) | [lab.py](labs/30-filetime-little-endian-record-decoding/lab.py) |
 | 31 | FILETIME High/Low Word Reconstruction | [English](labs/31-filetime-high-low-word-reconstruction/notes.md) · [Türkçe](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) | [lab.py](labs/31-filetime-high-low-word-reconstruction/lab.py) |
+| 32 | FILETIME Exact Deltas and Clock Ambiguity | [English](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.md) · [Türkçe](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.tr.md) | [lab.py](labs/32-filetime-exact-deltas-and-clock-ambiguity/lab.py) |
 
 ## How to study
 
@@ -80,5 +81,5 @@ After these 15 days, continue with WinDbg, deeper PE loader mechanics, memory fo
 
 ## Latest lab
 
-- **Day 31 — FILETIME High/Low Word Reconstruction**
-- [English notes](labs/31-filetime-high-low-word-reconstruction/notes.md) · [Türkçe notlar](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) · [Python exercise](labs/31-filetime-high-low-word-reconstruction/lab.py)
+- **Day 32 — FILETIME Exact Deltas and Clock Ambiguity**
+- [English notes](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.md) · [Türkçe notlar](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.tr.md) · [Python exercise](labs/32-filetime-exact-deltas-and-clock-ambiguity/lab.py)

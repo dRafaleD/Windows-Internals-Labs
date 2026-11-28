@@ -39,6 +39,7 @@ Windows'un iç yapısını sıfırdan tanımak için hazırlanan **26 günlük i
 | 29 | FILETIME Tam Dönüşüm ve Özel Değerler | [Türkçe](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.tr.md) · [English](labs/29-filetime-exact-roundtrips-and-sentinel-values/notes.md) | [lab.py](labs/29-filetime-exact-roundtrips-and-sentinel-values/lab.py) |
 | 30 | FILETIME Little-Endian Kayıt Çözümleme | [Türkçe](labs/30-filetime-little-endian-record-decoding/notes.tr.md) · [English](labs/30-filetime-little-endian-record-decoding/notes.md) | [lab.py](labs/30-filetime-little-endian-record-decoding/lab.py) |
 | 31 | FILETIME High/Low Word Birleştirme | [Türkçe](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) · [English](labs/31-filetime-high-low-word-reconstruction/notes.md) | [lab.py](labs/31-filetime-high-low-word-reconstruction/lab.py) |
+| 32 | FILETIME Tam Fark Hesabı ve Saat Belirsizliği | [Türkçe](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.tr.md) · [English](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.md) | [lab.py](labs/32-filetime-exact-deltas-and-clock-ambiguity/lab.py) |
 
 ## Nasıl çalışılır?
 
@@ -80,5 +81,5 @@ Temel 15 günün ardından WinDbg, PE loader ayrıntıları, bellek adli bilişi
 
 ## En yeni lab
 
-- **Gün 31 — FILETIME High/Low Word Birleştirme**
-- [Türkçe notlar](labs/31-filetime-high-low-word-reconstruction/notes.tr.md) · [English notes](labs/31-filetime-high-low-word-reconstruction/notes.md) · [Python uygulaması](labs/31-filetime-high-low-word-reconstruction/lab.py)
+- **Gün 32 — FILETIME Tam Fark Hesabı ve Saat Belirsizliği**
+- [Türkçe notlar](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.tr.md) · [English notes](labs/32-filetime-exact-deltas-and-clock-ambiguity/notes.md) · [Python uygulaması](labs/32-filetime-exact-deltas-and-clock-ambiguity/lab.py)
